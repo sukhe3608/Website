@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pingbix Header</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/apps.js" defer></script>
+</head> 
+<body>
+    <!-- header.html -->
+<header class="header">
+    <div class="header-left">
+        <button class="menu-toggle" id="menuToggle">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12h18" />
+                <path d="M3 6h18" />
+                <path d="M3 18h18" />
+            </svg>
+        </button>
+        <button class="back-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6" />
+            </svg>
+            Go Back
+        </button>
+        <div class="time-display">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+            </svg>
+            <span>Time : </span>
+            <span id="currentTime">03:50:09 PM</span>
+        </div>
+    </div>
+    <div class="header-right">
+        <div class="country-selector">
+            <img src="https://flagcdn.com/w40/in.png" alt="India" class="flag-icon">
+            <span>India</span>
+        </div>
+        <div class="balance">
+            <span class="balance-icon">₹</span>
+            <span class="balance-amount">10.84</span>
+            <button class="add-balance">+</button>
+        </div>
+        <button class="icon-btn notification-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                <path d="M13.73 21a2 2 0 01-3.46 0" />
+            </svg>
+        </button>
+        <div class="user-profile">
+            <div class="avatar">P</div>
+            <span class="username">pingbixai</span>
+        </div>
+    </div>
+</header>
+</body>
+</html>
